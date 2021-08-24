@@ -2,7 +2,7 @@
 
 import click
 from pathlib import Path
-from parse import get_data
+from parse import get_data, pdf_to_string
 
 
 # Shared args
@@ -18,6 +18,13 @@ def cli(debug: bool, verbose: bool) -> None:
 @click.pass_context
 def get_data_(ctx: click.Context) -> Path:
     res: Path = ctx.invoke(get_data)
+    return res
+
+
+@cli.command()
+@click.pass_context
+def pdf_to_string_(ctx: click.Context) -> Path:
+    res: Path = ctx.invoke(pdf_to_string)
     return res
 
 

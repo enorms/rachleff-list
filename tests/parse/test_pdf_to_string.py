@@ -2,12 +2,10 @@
 
 from pathlib import Path
 from click.testing import CliRunner
-from src.main import get_data_
+from src.main import pdf_to_string_
 
 
-def test_get_data() -> None:
+def test_pdf_to_string() -> None:
     runner = CliRunner()
-    result = runner.invoke(get_data_)
+    result = runner.invoke(pdf_to_string_)
     assert result.exit_code == 0
-    p = Path("./_data/1")
-    assert len(p.read_bytes()) > 0
