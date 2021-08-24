@@ -2,6 +2,8 @@
 
 # local data
 _data/
+# mypy stubgen
+_/out/ 
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

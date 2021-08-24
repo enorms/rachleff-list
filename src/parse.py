@@ -1,6 +1,6 @@
 from pathlib import Path
 import urllib.request
-from src.constants import DATA_PATH, LIST_2019
+from constants import DATA_PATH, LIST_2019
 
 
 def get_data(debug: bool = False, verbose: bool = False) -> Path:

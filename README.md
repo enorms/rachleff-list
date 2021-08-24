@@ -10,6 +10,10 @@ Basic folder structure with working test, starter requirements and gitignore.
 
 `python -m pytest tests`
 
+# Dev
+
+`mypy src`
+
 # Install
 
 ```sh
