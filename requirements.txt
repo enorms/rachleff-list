@@ -1,2 +1,6 @@
-pytest
 black
+click
+mypy
+pydantic
+pytest
+python-pdfbox
