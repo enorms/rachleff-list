@@ -1,10 +1,26 @@
-# Python TDD starter template
+# rachleff-list
 
-Basic folder structure with working test, starter requirements and gitignore.
+Quickly see what years a company is on the list. Useful for diligence on later-stage private companies.
+
+[About the list](https://blog.wealthfront.com/career-launching-companies-list/)
 
 # Usage
 
-`python src/main.py sum --items 2 3`
+## Check for a company
+
+This company is in the list
+
+```sh
+(.venv)  % py src/main.py company-in-year hackerone --test
+Hackerone found in years ['2019']
+```
+
+This company is not in the list
+
+```sh
+(.venv) % py src/main.py company-in-year apple --test
+Apple not found
+```
 
 # Test
 

@@ -5,12 +5,21 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "pytest",
+      "name": "pytest all",
       "type": "python",
       "request": "launch",
       "module": "pytest",
       "python": "${command:python.interpreterPath}",
       "env": { "PYTHONPATH": "src" }
+    },
+    {
+      "name": "pytest one",
+      "type": "python",
+      "request": "launch",
+      "module": "pytest",
+      "python": "${command:python.interpreterPath}",
+      "env": { "PYTHONPATH": "src" },
+      "args": ["tests/parse/test_company_in_year.py"]
     }
   ]
 }
