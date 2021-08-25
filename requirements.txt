@@ -3,3 +3,4 @@ click
 mypy
 pydantic
 pytest
+python-pdfbox
