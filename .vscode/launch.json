@@ -9,6 +9,7 @@
       "type": "python",
       "request": "launch",
       "module": "pytest",
+      "python": "${command:python.interpreterPath}",
       "env": { "PYTHONPATH": "src" }
     }
   ]

@@ -8,7 +8,15 @@ Basic folder structure with working test, starter requirements and gitignore.
 
 # Test
 
+Use debug
+
+or
+
 `python -m pytest tests`
+
+or
+
+`PYTHONPATH=src pytest tests/parse/test_get_data.py`
 
 # Dev
 

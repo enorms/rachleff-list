@@ -5,11 +5,11 @@
   "python.linting.mypyEnabled": true,
   "python.linting.mypyArgs": [
     "--ignore-missing-imports",
-    "--follow-imports=silent",
+    "--follow-imports=skip",
     "--show-column-numbers",
-    "--strict"
+    "--strict-optional"
   ],
-  "python.linting.pylintEnabled": true,
+  "python.linting.pylintEnabled": false,
   "python.linting.pylintArgs": [
     "--disable=all",
     "--disable=E0402",
@@ -22,5 +22,7 @@
   "[python]": {
     "editor.defaultFormatter": null
   },
-  "cSpell.enabled": true
+  "cSpell.enabled": false,
+  "python.linting.flake8Enabled": false,
+  "python.linting.enabled": true
 }
