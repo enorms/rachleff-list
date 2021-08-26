@@ -41,11 +41,24 @@ def pdf_to_string(ctx: click.Context, input: str) -> str:
 
 @cli.command()
 @click.pass_context
+# @click.option("--input", "-i", is_flag=False, help="Test with only one year", type=str)
+def update(ctx: click.Context, input: str = "", test: bool = False) -> None:
+    """Download and convert to text.
+
+    Param
+        Year is an optional param used for testing, to only get from 1 data source.
+    """
+    ctx.invoke(get_data_, test)
+    ctx.invoke(pdf_to_string_, input)
+
+
+@cli.command()
+@click.pass_context
 @click.option(
     "--test", "-t", is_flag=True, default=False, help="Test with only one year"
 )
 @click.argument("company", type=str, default="")
-def company_in_year(ctx: click.Context, company: str, test: bool) -> str:
+def check(ctx: click.Context, company: str, test: bool) -> str:
     """Use expected data paths to load text files,
     and return just the company names with the years"""
     company = company.casefold()

@@ -10,10 +10,11 @@ class Source_Data(BaseModel):
     url: str
 
 
+# 2021 scraped as no pdf yet
 data = [
     Source_Data(
         year=2021,
-        url="https://blog.wealthfront.com/career-launching-companies-list/#companies-list",
+        url="",
     ),
     Source_Data(
         year=2020,

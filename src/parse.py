@@ -67,8 +67,8 @@ def company_in_year_(company: str, test: bool) -> list[str]:
     years = [TEST_YEAR] if test else [datum.year for datum in data]
     for datum in data:
         if datum.year in years:
-            input = Path(DATA_PATH, str(datum.year)).with_suffix(".pdf")
-            txt = pdf_to_string_(str(input))
+            input = Path(DATA_PATH, str(datum.year)).with_suffix(".txt")
+            txt = input.read_text()
             if company in txt:
                 found_in.append(str(datum.year))
     return found_in
