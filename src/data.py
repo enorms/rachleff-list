@@ -8,19 +8,36 @@ from pydantic import BaseModel, NoneStr
 class Source_Data(BaseModel):
     year: int
     url: str
-    date_saved: datetime = datetime.now()
 
 
-data_2019 = Source_Data(
-    year=2019,
-    url="https://blog.wealthfront.com/wp-content/uploads/2019/12/2019-Career-Launching-List-2.pdf",
-    date_saved=datetime(2021, 8, 24),
-)
-
-data_2018 = Source_Data(
-    year=2018,
-    url="https://blog.wealthfront.com/wp-content/uploads/2019/12/2019-Career-Launching-List-2.pdf",
-    date_saved=datetime(2021, 8, 24),
-)
-
-data = [data_2019, data_2018]
+# 2021 scraped as no pdf yet
+data = [
+    Source_Data(
+        year=2021,
+        url="",
+    ),
+    Source_Data(
+        year=2020,
+        url="https://cdn.wealthfront.com/public.email.images/2020_Career-Launching_List_vF.pdf",
+    ),
+    Source_Data(
+        year=2019,
+        url="https://blog.wealthfront.com/wp-content/uploads/2019/12/2019-Career-Launching-List-2.pdf",
+    ),
+    Source_Data(
+        year=2018,
+        url="https://blog.wealthfront.com/wp-content/uploads/2018/10/2018_Career-Launching_List-10.pdf",
+    ),
+    Source_Data(
+        year=2017,
+        url="https://cdn.wealthfront.com/public.email.images/WF-2017-CareerGuide.pdf",
+    ),
+    Source_Data(
+        year=2016,
+        url="https://cdn.wealthfront.com/public.email.images/WF-2016-CareerGuide.pdf",
+    ),
+    Source_Data(
+        year=2015,
+        url="https://cdn.wealthfront.com/public.email.images/WF-2015-CareerGuide.pdf",
+    ),
+]

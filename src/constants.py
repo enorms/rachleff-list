@@ -58,5 +58,5 @@ STATE_CODES = [
 STATE_CODES = [state.lower() for state in STATE_CODES]
 
 # testing
-COMPANY_IN_2019 = "HackerOne".casefold()
-COMPANY_NOT_IN_2019 = "Apple".casefold()
+COMPANY_NOT_IN = "Apple".casefold()
+COMPANY_IN = "HackerOne".casefold()

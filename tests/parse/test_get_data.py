@@ -3,10 +3,8 @@
 from pathlib import Path
 from click.testing import CliRunner
 
-# from main import get_data
 from main import get_data
 from constants import DATA_PATH, TEST_YEAR
-from data import data_2019
 
 
 def test_get_data() -> None:
