@@ -24,15 +24,9 @@ Apple not found
 
 # Test
 
-Use debug
+`PYTHONPATH=src pytest tests`
 
-or
-
-`python -m pytest tests`
-
-or
-
-`PYTHONPATH=src pytest tests/parse/test_get_data.py`
+or use debug if VS Code.
 
 # Dev
 
