@@ -22,6 +22,10 @@ This company is not in the list
 Apple not found
 ```
 
+## Known problems
+
+Most recent (2021) is not a pdf; store in repo as txt, or recreate with copy/past -> '2021.txt'
+
 # Test
 
 `PYTHONPATH=src pytest tests`

@@ -1,0 +1,769 @@
+Aclima
+aclima.io
+San Francisco, CA
+Hyperlocal air quality data and insights to improve human and planetary health
+Airtable
+airtable.com
+San Francisco, CA
+Collaborative database software
+Algolia
+algolia.com
+San Francisco, CA
+Hosted search API
+Amplitude
+amplitude.com
+San Francisco, CA
+Product analytics to help companies understand user behavior
+Andela
+andela.com
+New York, NY
+Distributed software engineers
+Anduril
+anduril.com
+Irvine, CA
+Technology for military agencies and border surveillance
+App Annie
+appannie.com
+San Francisco, CA
+Business intelligence solutions
+AppZen
+appzen.com
+San Jose, CA
+AI platform for finance teams
+Arctic Wolf
+arcticwolf.com
+Eden Prairie, MN
+Managed firebreak detection & response security service
+Attentive
+attentivemobile.com
+New York, NY
+Personalized mobile messaging platform for innovative brands and organizations
+Auth0
+auth0.com
+Bellevue, WA
+Identity management platform for application builders and developers
+B
+Benchling
+benchling.com
+San Francisco, CA
+SaaS for life sciences R&D
+Better
+better.com
+New York, NY
+Technology to make the process of financing a home more efficient
+BetterCloud
+bettercloud.com
+New York, NY
+SaaS operations management platform
+Blend
+blend.com
+San Francisco, CA
+White-label consumer lending ecosystem
+BlockFi
+blockfi.com
+Jersey City, NJ
+Secured non-bank lender that offers crypto-asset-backed USD loans to crypto-asset owners
+Bolt
+bolt.com
+San Francisco, CA
+Online checkout experience platform
+Braze
+braze.com
+New York, NY
+Customer engagement platform
+Brex
+brex.com
+San Francisco, CA
+Credit cards & cash management accounts for startups
+Bright Health
+brighthealthplan.com
+Minneapolis, MN
+Health insurance service platform
+Built
+getbuilt.com
+Nashville, TN
+Construction vertical SaaS
+C
+Calendly
+calendly.com
+Atlanta, GA
+Scheduling software
+Calm
+calm.com
+San Francisco, CA
+Application designed to help its users meditate and relax
+Cameo
+cameo.com
+Chicago, IL
+Connects fans directly with their favorite pop culture personalities
+CampusLogic
+campuslogic.com
+Chandler, AZ
+Tools used by colleges to help students manage scholarships & loans
+Capsule
+capsule.com
+New York, NY
+Online pharmacy
+Carbon
+carbon3d.com
+Redwood City, CA
+3D manufacturing
+Carta
+carta.com
+Palo Alto, CA
+Cap table management & compliance 
+Cedar
+cedar.com
+New York, NY
+Patient payments platform
+Cerebras
+cerebras.net
+Los Altos, CA
+AI chips
+Chainalysis
+chainalysis.com
+New York, NY
+System for blockchain analysis
+Chartboost
+chartboost.com
+San Francisco, CA
+In-app monetization and programmatic advertising platform
+ChowNow
+chownow.com
+Los Angeles, CA
+Online ordering system
+Coalition
+coalitioninc.com
+San Francisco, CA
+Cybersecurity tools
+Cockroach Labs
+cockroachlabs.com
+New York, NY
+Distributed SQL database
+Code42
+code42.com
+Minneapolis, MN
+Data loss protection, visibility, and recovery solutions
+CommonBond
+commonbond.co
+New York, NY
+Online education lending platform
+Confluent
+confluent.io
+Mountain View, CA
+Data streaming platform
+Convoy
+convoy.com
+Seattle, WA
+Connects shippers with nearby carriers
+Coursera
+coursera.org
+Mountain View, CA
+Online education platform
+Current
+current.com
+New York, NY
+Challenger bank
+Cybereason
+cybereason.com
+Boston, MA
+Endpoint detection and response platform
+D
+Dataiku
+dataiku.com
+New York, NY
+Enterprise artificial intelligence and machine-learning platform
+Dave
+dave.com
+Los Angeles, CA
+Challenger bank
+Deliverr
+deliverr.com
+San Francisco, CA
+Delivery platform
+Digit
+digit.co
+San Francisco, CA
+Financial health app
+Discord
+discordapp.com
+San Francisco, CA
+Voice, video, and text chat app for gamers
+Domino
+dominodatalab.com
+San Francisco, CA
+Data science collaboration platform
+Dremio
+dremio.com
+Santa Clara, CA
+Data lake query engine
+DuckDuckGo
+duckduckgo.com
+Paoli, PA
+Secure browser extension & search
+Duolingo
+duolingo.com
+Pittsburgh, PA
+Digital language learning
+E
+Earnin
+earnin.com
+Palo Alto, CA
+Access to your pay whenever you need it
+Eightfold
+eightfold.ai
+Mountain View, CA
+AI-powered talent intelligence platform
+Envoy
+envoy.com
+San Francisco, CA
+Visitor management
+Everlaw
+everlaw.com
+Oakland, CA
+Platform for document analysis to law firms, government, and corporations
+F
+Faire
+faire.com
+San Francisco, CA
+Curated marketplace for local retailers to discover the best brands to stock their stores
+Farmers Business Network
+fbn.com
+San Carlos, CA
+Network that connects farmers to share knowledge
+Fictiv
+fictiv.com
+San Francisco, CA
+Platform that enables users to design, develop, and deliver fabricated parts
+Figma 
+figma.com
+San Francisco, CA
+Multi-user design tools
+Figure
+figure.com
+San Francisco, CA
+Home equity loans
+FinancialForce
+financialforce.com
+San Francisco, CA
+Back-office applications for Salesforce CRM
+Fivetran
+fivetran.com
+Oakland, CA
+Secure data pipeline for analytics
+FLEXE
+flexe.com
+Seattle, WA
+On-demand warehousing
+Flywire
+flywire.com
+Boston, MA
+Service for complex payment problems
+ForgeRock
+forgerock.com
+San Francisco, CA
+Provider of digital identity solutions
+Forter
+forter.com
+New York, NY
+Fraud solution that helps retailers grow sales, lower costs, and improve customer experience
+Freshworks
+freshworks.com
+San Mateo, CA
+Cloud-based customer support software
+Front
+frontapp.com
+San Francisco, CA
+Customer communication hub
+Fullstory
+fullstory.com
+Atlanta, GA
+Customer experience data app
+Fundbox
+fundbox.com
+San Francisco, CA
+Financial factoring services
+Fuze
+fuze.com
+Boston, MA
+Unified communications services
+G
+G2
+g2.com
+Chicago, IL
+Collects and publishes business products reviews
+GitLab
+about.gitlab.com
+San Francisco, CA
+DevOps platform
+Glossier
+glossier.com
+New York, NY
+Direct-to-consumer beauty products
+GOAT
+goat.com
+Culver City, CA
+Marketplace for authentic sneakers, apparel, and accessories
+Gong
+gong.io
+San Francisco, CA
+Sales call analysis tools
+Grafana
+grafana.com
+New York, NY
+Open-source analytics and monitoring software
+Grammarly
+grammarly.com
+San Francisco, CA
+AI-powered products that help people communicate more effectively
+Greenhouse
+greenhouse.io
+New York, NY
+Recruiting software
+Greenlight
+greenlightcard.com
+Atlanta, GA
+Smart debit card used to help parents monitor their child's spending habits
+Guild Education
+guildeducation.com
+Denver, CO
+Education platform for working adults
+Gusto
+gusto.com
+San Francisco, CA
+Small company payroll & benefits
+H
+Handshake
+joinhandshake.com
+San Francisco, CA
+Recruiting marketplace for college students
+Harness
+harness.io
+San Francisco, CA
+DevOps platform
+HashiCorp 
+hashicorp.com
+San Francisco, CA
+Cloud infrastructure provisioning and security
+Health IQ
+healthiq.com
+Mountain View, CA
+Insurance for the health-conscious
+Highspot
+highspot.com
+Seattle, WA
+Content management for sales
+Hippo Insurance
+hippo.com
+Palo Alto, CA
+Home insurance
+HireVue
+hirevue.com
+South Jordan, UT
+Intelligent hiring platform
+Hyperscience
+hyperscience.com
+New York, NY
+Software-defined, input-to-outcome automation
+I
+Ibotta
+ibotta.com
+Denver, CO
+Tools to encourage consumers to learn about their favorite brands
+Imply
+imply.io
+Burlingame, CA
+Real-time analytics solution based on Apache Druid
+inDriver
+indriver.com
+Mountain View, CA
+Ride-hailing service
+Innovium
+innovium.com
+San Jose, CA
+Networking solutions for data centers
+InVision
+invisionapp.com
+New York, NY
+Design collaboration platform 
+Ionic Security
+ionicsecurity.com
+Atlanta, GA
+Data security platform
+ipsy
+ipsy.com
+San Mateo, CA
+Beauty products sampling service
+Iterable
+iterable.com
+San Francisco, CA
+Email management platform
+J
+Juniper Square
+junipersquare.com
+San Francisco, CA
+Private equity fundraising platform
+Justworks
+justworks.com
+New York, NY
+Payroll, benefits & compliance for SMBs
+K
+Komodo Health
+komodohealth.com
+San Francisco, CA
+Healthcare & life sciences data platform
+Kong
+konghq.com
+San Francisco
+Open-source microservices management platform
+L
+LaunchDarkly
+launchdarkly.com
+Oakland, CA
+Feature management platform
+LendingHome
+lendinghome.com
+San Francisco, CA
+Mortgage lender
+Lyra Health
+lyrahealth.com
+Burlingame, CA
+Digital mental health platform
+M
+MarkForged
+markforged.com
+Watertown, MA
+3D printing platform
+Mattermost
+mattermost.com
+Palo Alto, CA
+Enterprise-grade messaging solutions
+Minted
+minted.com
+San Francisco, CA
+Graphic design crowdsourcing
+Miro
+miro.com
+San Francisco, CA
+Online collaborative whiteboard platform
+Modsy
+modsy.com
+San Francisco, CA
+Home design guidance and plans
+Moveworks
+moveworks.com
+Mountain View, CA
+AI to help resolve help desk tickets
+mParticle 
+mparticle.com
+New York, NY
+Customer data platform for multi channel consumer brands
+N
+N3twork
+n3twork.com
+San Francisco, CA
+Mobile games creator and publisher
+Narvar
+narvar.com
+San Mateo, CA
+Customer experience platform for retailers
+Newsela
+newsela.com
+New York, NY
+Education software
+Next Insurance
+nextinsurance.com
+Palo Alto, CA
+Insurance for entrepreneurs/small businesses
+Nextdoor
+nextdoor.com
+San Francisco, CA
+Neighborhood-based social network
+nference
+nference.ai
+Cambridge, MA
+Knowledge synthesis from biomedical databases
+Notion
+notion.so
+San Francisco, CA
+Document collaboration
+O
+OfferUp
+offerup.com
+Bellevue, WA
+C2C commerce platform
+Olive
+oliveai.com
+Columbus, OH
+Intelligent healthcare RPA
+OneSource Virtual
+onesourcevirtual.com
+Dallas, TX
+Workday services
+OneTrust
+onetrust.com
+Atlanta, GA
+Privacy management
+Outreach
+outreach.io
+Seattle, WA
+Sales engagement platform
+Owl Labs
+owllabs.com
+Somerville, MA
+Hardware and software systems for video conferencing
+P
+Pendo
+pendo.io
+Raleigh, NC
+Platform that helps teams deliver software users love
+Perceptyx
+perceptyx.com
+Temecula, CA
+Customer feedback tools
+Podium
+podium.com
+Lehi, UT
+Customer communication platform
+Pond5
+pond5.com
+New York, NY
+Hub to buy and sell media
+Postman
+postman.com
+San Francisco, CA
+Collaboration platform for API development
+Prodege
+prodege.com
+El Segundo, CA
+Rewards programs
+Q
+Qualia
+qualia.com
+San Francisco, CA
+Digital real estate closing platform
+Qumulo
+qumulo.com
+Seattle, WA
+Storage
+Quora
+quora.com
+Mountain View, CA
+Q&A platform
+R
+Redis Labs
+redislabs.com
+Mountain View, CA
+In-memory database platform for applications
+Rent the Runway
+renttherunway.com
+New York, NY
+Designer dress and accessory rentals
+ReTool
+retool.com
+San Francisco, CA
+Fast way of building internal applications
+S
+Salsify
+salsify.com
+Boston, MA
+Product experience management
+Scale AI
+scale.com
+San Francisco, CA
+Annotation of training data for AI
+SentinelOne
+sentinelone.com
+Mountain View, CA
+Autonomous endpoint protection
+Sentry
+sentry.io
+San Francisco, CA
+Open-source platform for workflow productivity
+ServiceChannel
+servicechannel.com
+Pleasanton, CA
+Platform to procure, manage and pay for facility maintenance services
+ServiceTitan
+servicetitan.com
+Glendale, CA
+Software for the home service industries
+Shippo
+goshippo.com
+San Francisco, CA
+Shipping API provider
+Side
+sideinc.com
+San Francisco, CA
+Real estate brokerage services
+Skydio
+skydio.com
+Redwood City, CA
+Drones
+Sonder
+sonder.com
+San Francisco, CA
+A new way to stay in your favorite neighborhoods around the world
+SpotOn
+spoton.com
+San Francisco, CA
+Software and payment processing for merchants
+Sprinklr
+sprinklr.com
+New York, NY
+Customer experience management software
+Stash
+stash.com
+New York, NY
+Digital investing and banking
+Stedi
+stedi.com
+Denver, CO
+EDI platform to automate any B2B transaction
+Stord
+stord.com
+Atlanta, GA
+Supply chain in the cloud
+Strava
+strava.com
+San Francisco, CA
+Global community of athletes
+StreamSets
+streamsets.com
+San Francisco, CA
+DataOps platform for modern data integration
+Synack
+synack.com
+Redwood City, CA
+Scalable continuous testing for enterprise applications and networks
+Sysdig
+sysdig.com
+San Francisco, CA
+DevOps security
+T
+Talkdesk
+talkdesk.com
+San Francisco, CA
+Contact center software
+Tally
+meettally.com
+San Francisco, CA
+Automated credit card payoff app
+Tastemade
+tastemade.com
+Santa Monica, CA
+Online food-oriented destination
+Tastyworks
+tastyworks.com
+Chicago, IL
+Stock trading platform
+Tekion
+tekion.com
+San Ramon, CA
+ERP platform for autodealers
+The Zebra
+thezebra.com
+Austin, TX
+Auto insurance comparison marketplace
+ThoughtSpot
+thoughtspot.com
+Sunnyvale, CA
+Relational search engine designed for data analytics
+Turo
+turo.com
+San Francisco, CA
+Car sharing rental marketplace
+U
+Udacity
+udacity.com
+Mountain View, CA
+Skills development platform
+Ujet
+ujet.co
+San Francisco, CA
+Cloud contact center solutions
+Unqork
+unqork.com
+New York, NY
+No-code enterprise application platform
+Upgrade
+upgrade.com
+San Francisco, CA
+Consumer credit platform
+V
+Varsity Tutors
+varsitytutors.com
+St. Louis, MO
+Platform that connects students with personalized instruction 
+Vectra
+vectra.ai
+San Jose, CA
+Network threat detection and response
+Venafi
+venafi.com
+Salt Lake City, UT
+Automates security for keys and certificates
+Verkada
+verkada.com
+San Mateo, CA
+Software-enabled enterprise security camera systems
+VSCO
+vsco.co
+Oakland, CA
+Photography apps & tools
+W
+Wealthfront
+wealthfront.com
+Palo Alto, CA
+Nextgen banking service
+Webflow
+webflow.com
+San Francisco, CA
+Design and hosting platform
+Weee!
+sayweee.com
+Fremont, CA
+Asian grocery delivery platform
+WHOOP
+whoop.com
+Boston, MA
+Performance optimization system that helps athlete boost performance
+WordPress
+wordpress.com
+San Francisco, CA
+Open-source CMS & blog software
+WorkBoard
+workboard.com
+Redwood City, CA
+OKR software
+Workrise
+workrise.com
+Austin, TX
+Marketplace for on-demand services and skilled labor in the energy industry
+X
+XANT
+xant.ai
+Lehi, UT
+Sales acceleration platform
+Y
+YapStone
+yapstone.com
+Walnut Creek, CA
+Electronic payments for online marketplaces
+Yumi
+helloyumi.com
+Los Angeles, CA
+D2C baby food service
+Z
+Zapier
+zapier.com
+San Francisco, CA
+Low-code tools
+Zenoti
+zenoti.com
+Bellevue, WA
+Salon & spa software
+Zest AI
+zest.ai
+Burbank, CA
+Machine learning and AI tools for financial institutions
