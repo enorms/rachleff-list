@@ -1,11 +1,15 @@
-import pdfbox
-import codecs
+# import pdfbox # move to func so system alias works for company search
+
+# Allow relative import from anywhere
+import os
+import sys
+
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 from pathlib import Path
-import re
-import urllib.request
-from constants import DATA_PATH, TEST_YEAR, COMPANY_IN, STATE_CODES
-from data import Source_Data, data
-from typing import List
+from urllib.request import Request, urlopen
+from constants import DATA_PATH, TEST_YEAR
+from data import data
 
 
 def get_data_(test: bool) -> Path:
@@ -15,12 +19,11 @@ def get_data_(test: bool) -> Path:
     years = [TEST_YEAR] if test else [datum.year for datum in data]
     for datum in data:
         if datum.year in years:
-            fp = urllib.request.urlopen(datum.url)
-            mybytes = fp.read()
-            fp.close()
+            req = Request(datum.url, headers={"User-Agent": "XYZ/3.0"})
+            mybytes = urlopen(req, timeout=10).read()
             path = Path(DATA_PATH, str(datum.year)).with_suffix(".pdf")  # pdf in bytes
             path.write_bytes(mybytes)
-    return path
+    return Path()
 
 
 def pdf_to_string_(input_path: str) -> str:
@@ -35,6 +38,8 @@ def pdf_to_string_(input_path: str) -> str:
 
     Returns a string, mainly for testing.
     """
+    import pdfbox
+
     # TODO: capture stderr
     test = False  # add as param
     pdf_ref = pdfbox.PDFBox()
@@ -59,7 +64,7 @@ def pdf_to_string_(input_path: str) -> str:
 # TODO: don't print this error
 #     Aug 25, 2021 1:24:08 AM org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicodeWARNING: No Unicode mapping for f_f (31) in font QSPMMV+Calibre-Regular\
 # TODO: if not found, save to not found list
-def company_in_year_(company: str, test: bool) -> list[str]:
+def company_in_year_(company: str, test: bool) -> "list[str]":
     """Return true if the company in any year
     else false"""
     # test with one year

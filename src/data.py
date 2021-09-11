@@ -4,6 +4,12 @@ from datetime import datetime
 import pydantic
 from pydantic import BaseModel, NoneStr
 
+# Allow relative import from anywhere
+import os
+import sys
+
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 
 class Source_Data(BaseModel):
     year: int

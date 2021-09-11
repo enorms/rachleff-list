@@ -16,6 +16,7 @@
     "--disable=E203",
     "--dasable=W503"
   ],
+  "python.analysis.useLibraryCodeForTypes": true,
   "editor.insertSpaces": false,
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",

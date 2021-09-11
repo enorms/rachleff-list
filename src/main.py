@@ -1,4 +1,12 @@
+#!/usr/bin/env python3
+
 # Implementation of the CLI interface
+
+# Allow relative import from anywhere
+import os
+import sys
+
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 import click
 from pathlib import Path
@@ -57,10 +65,11 @@ def update(ctx: click.Context, input: str = "", test: bool = False) -> None:
 @click.option(
     "--test", "-t", is_flag=True, default=False, help="Test with only one year"
 )
-@click.argument("company", type=str, default="")
+@click.argument("company", type=str)
 def check(ctx: click.Context, company: str, test: bool) -> str:
     """Use expected data paths to load text files,
     and return just the company names with the years"""
+
     company = company.casefold()
     years_found = ctx.invoke(company_in_year_, company, test)
     company = company.title()
