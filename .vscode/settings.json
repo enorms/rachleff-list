@@ -2,7 +2,7 @@
   "git.ignoreLimitWarning": true,
   "python.formatting.provider": "black",
   "editor.formatOnSave": true,
-  "python.linting.mypyEnabled": true,
+  "python.linting.mypyEnabled": false,
   "python.linting.mypyArgs": [
     "--ignore-missing-imports",
     "--follow-imports=skip",

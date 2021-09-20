@@ -6,10 +6,11 @@ import sys
 
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
+from importlib import resources
 from pathlib import Path
 from urllib.request import Request, urlopen
-from constants import DATA_PATH, TEST_YEAR
-from data import data
+from rachleff.constants import DATA_PATH, TEST_YEAR, DATA_MODULE
+from rachleff.data import data
 
 
 def get_data_(test: bool) -> Path:
@@ -72,8 +73,12 @@ def company_in_year_(company: str, test: bool) -> "list[str]":
     years = [TEST_YEAR] if test else [datum.year for datum in data]
     for datum in data:
         if datum.year in years:
-            input = Path(DATA_PATH, str(datum.year)).with_suffix(".txt")
-            txt = input.read_text()
+            # input = Path(DATA_PATH, str(datum.year)).with_suffix(".txt")
+            # txt = input.read_text()
+            # SETUP TOOLS IMPORT
+            txt = resources.read_text(
+                "rachleff", str(Path(str(datum.year)).with_suffix(".txt"))
+            )
             if company in txt:
                 found_in.append(str(datum.year))
     return found_in

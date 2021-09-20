@@ -10,9 +10,8 @@ sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 import click
 from pathlib import Path
-from parse import get_data_, pdf_to_string_, company_in_year_
-from data import data
-from data import Source_Data
+from rachleff.parse import get_data_, pdf_to_string_, company_in_year_
+from rachleff.data import data, Source_Data
 
 # Shared args
 @click.group()
