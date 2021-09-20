@@ -2,8 +2,8 @@
 
 from click.testing import CliRunner
 from pathlib import Path
-from main import pdf_to_string
-from constants import DATA_PATH, TEST_YEAR, COMPANY_IN
+from rachleff.main import pdf_to_string
+from rachleff.constants import DATA_PATH, TEST_YEAR, COMPANY_IN
 
 # TODO: not using only the test year, and then not finding the company
 def test_pdf_to_string() -> None:

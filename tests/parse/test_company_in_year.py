@@ -3,8 +3,8 @@
 from click.testing import CliRunner
 from pathlib import Path
 import re
-from main import check
-from constants import DATA_PATH, TEST_YEAR, COMPANY_IN, COMPANY_NOT_IN
+from rachleff.main import check
+from rachleff.constants import DATA_PATH, TEST_YEAR, COMPANY_IN, COMPANY_NOT_IN
 
 
 def test_company_in_year() -> None:

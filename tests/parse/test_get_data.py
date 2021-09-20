@@ -2,7 +2,7 @@
 
 from click.testing import CliRunner
 
-from main import get_data
+from rachleff.main import get_data
 
 
 def test_get_data() -> None:
