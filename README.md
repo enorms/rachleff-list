@@ -2,6 +2,9 @@
 
 Quickly see what years a company is on the list. Useful for diligence on later-stage private companies.
 
+![CodeQL](https://github.com/lifekaizen/rachleff-list/actions/workflows/codeql-analysis.yml/badge.svg)
+![pytest](https://github.com/lifekaizen/rachleff-list/actions/workflows/pytest.yml/badge.svg)
+
 ## About the list
 
 - US-based, privately held, have a revenue run rate by year end of between $20 million and $300 million, be on a trajectory to grow at a rate in excess of 50% for at least the next three or four years, and have compelling unit economics
