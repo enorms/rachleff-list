@@ -19,9 +19,9 @@ Quickly see what years a company is on the list. Useful for diligence on later-s
 This company is in the list
 
 ```sh
-% ./src/rachleff check hackerone
+% py src/main.py check hackerone
 Hackerone found in years ['2020', '2019']
-% ./src/rachleff check flexport
+% py src/main.py check flexport
 Flexport not found
 ```
 
@@ -48,19 +48,25 @@ or use debug if VS Code.
 
 ## Running locally with alias
 
-Prereqs:
-pydantic
+### Prereqs:
 
-Set shell alias to path such as
+`pydantic`
+
+Check with `pip list | grep pydantic`
+
+### Set alias
+
+In `~/.zshrc` or `.aliases` if aliased
 
 ```sh
 alias rachleff-list='/{path_to_dir}/rachleff-list/src/main.py'
 ```
 
-Give permissions to execute the file. For example:
+Give permissions to execute the file and data. For example:
 
 ```sh
 % chmod a+x /{path_to_dir}/rachleff-list/src/main.py
+chmod a+x / _data/*
 ```
 
 ## Development
