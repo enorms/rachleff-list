@@ -10,7 +10,7 @@ sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 import click
 from pathlib import Path
-from rachleff.parse import get_data_, pdf_to_string_, company_in_year_
+from rachleff.parse import check_dropped, get_data_, pdf_to_string_, check_years
 from rachleff.data import data, Source_Data
 
 # Shared args
@@ -65,18 +65,25 @@ def update(ctx: click.Context, input: str = "", test: bool = False) -> None:
     "--test", "-t", is_flag=True, default=False, help="Test with only one year"
 )
 @click.argument("company", type=str)
-def check(ctx: click.Context, company: str, test: bool) -> str:
+def check(ctx: click.Context, company: str, test: bool) -> tuple:
     """Use expected data paths to load text files,
     and return just the company names with the years"""
 
     company = company.casefold()
-    years_found = ctx.invoke(company_in_year_, company, test)
-    company = company.title()
+
+    # check years
+    years_found = ctx.invoke(check_years, company, test)
     if years_found:
-        click.echo(f"{company} found in years {years_found}")
+        click.echo(f"{company.title()} found in years {years_found}")
     else:
-        click.echo(f"{company} not found")
-    return years_found
+        click.echo(f"{company.title()} not found")
+
+    # check dropped
+    dropped = ctx.invoke(check_dropped, company, test)
+    if dropped:
+        click.echo(f"Dropped due to: {dropped}")
+
+    return (years_found, dropped)
 
 
 if __name__ == "__main__":

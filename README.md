@@ -74,7 +74,7 @@ chmod a+x / _data/*
 ```sh
 python -m venv venv
 source venv/bin/activate
-python -m pip install -r requirements.txt
+python -m pip install -e .
 ```
 
 Can check typing with:
@@ -82,24 +82,3 @@ Can check typing with:
 ```sh
 mypy src
 ```
-
-# Data notes
-
-Dropped
-
-- 2021
-  - Too big
-    - 23andme
-    - Chime
-    - Databricks
-    - goPuff
-    - Instacart
-    - Marqueta
-    - Payoneer
-    - Samsara
-    - Warby Parker
-  - IPO
-    - Asana
-    - Affirm
-    - Snowflake
-    - Wish

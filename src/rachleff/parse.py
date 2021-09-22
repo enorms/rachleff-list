@@ -3,6 +3,9 @@
 # Allow relative import from anywhere
 import os
 import sys
+from typing import Optional
+
+from rachleff.dropped import dropped
 
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
@@ -65,7 +68,7 @@ def pdf_to_string_(input_path: str) -> str:
 # TODO: don't print this error
 #     Aug 25, 2021 1:24:08 AM org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicodeWARNING: No Unicode mapping for f_f (31) in font QSPMMV+Calibre-Regular\
 # TODO: if not found, save to not found list
-def company_in_year_(company: str, test: bool) -> "list[str]":
+def check_years(company: str, test: bool) -> "list[str]":
     """Return true if the company in any year
     else false"""
     # test with one year
@@ -76,6 +79,7 @@ def company_in_year_(company: str, test: bool) -> "list[str]":
             # input = Path(DATA_PATH, str(datum.year)).with_suffix(".txt")
             # txt = input.read_text()
             # SETUP TOOLS IMPORT
+            # TODO: this seems overly complex, why not just use a list of years?
             txt = resources.read_text(
                 "rachleff", str(Path(str(datum.year)).with_suffix(".txt"))
             )
@@ -83,3 +87,11 @@ def company_in_year_(company: str, test: bool) -> "list[str]":
             if company in txt:
                 found_in.append(str(datum.year))
     return found_in
+
+
+def check_dropped(company: str, test: bool) -> Optional[str]:
+    """Return reason dropped if known
+    else return None.__bool__
+
+    Year is only needed when creating the data, not using."""
+    return dropped.get(company)
