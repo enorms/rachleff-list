@@ -79,6 +79,7 @@ def company_in_year_(company: str, test: bool) -> "list[str]":
             txt = resources.read_text(
                 "rachleff", str(Path(str(datum.year)).with_suffix(".txt"))
             )
+            txt = txt.casefold()  # missed all caps company names
             if company in txt:
                 found_in.append(str(datum.year))
     return found_in
